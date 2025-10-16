@@ -12,8 +12,5 @@ public class TravelmanagementApplication extends SpringBootServletInitializer {
         SpringApplication.run(TravelmanagementApplication.class, args);
     }
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(TravelmanagementApplication.class);
-    }
+   
 }
